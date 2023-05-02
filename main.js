@@ -188,7 +188,7 @@ class Game{
 
     initGame(){
         lifeTxt.innerText = `Vie restante${ this.life<=1 ? '' : 's' }: ${ this.life }`;
-        endGame.innerText = 'sal';
+        endGame.innerText = '';
         canvas.style.cursor = 'none';
         this.initPlayer();
         this.initBrick();
